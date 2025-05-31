@@ -15,7 +15,7 @@ FOR EACH ROW
 EXECUTE FUNCTION validate_mission_date();
 ------------
 INSERT INTO mission (name, id_planet, goal, date)
-VALUES ('Марс-2025', 1, 'Исследование поверхности', '2025-09-20');
+VALUES ('Марс-2025', 1, 'Исследование поверхности', '2025-05-28');
 
 INSERT INTO mission (name, id_planet, goal, date)
 VALUES ('Луна-2020', 2, 'Поиск воды', '2020-01-01');
